@@ -1,0 +1,56 @@
+/* Font Style */
+@font-face { 
+   font-family: 'SF Pro Text'; 
+   src: url(../font/sf-pro-text_light.woff2) format('woff2');
+   font-weight: 400;
+}
+
+@font-face { 
+   font-family: 'SF Pro Text'; 
+   src: url(../font/sf-pro-text_regular.woff2) format('woff2');
+   font-weight: 600;
+}
+
+@font-face { 
+   font-family: 'SF Pro Text'; 
+   src: url(../font/sf-pro-text_bold.woff2) format('woff2');
+   font-weight: 700;
+}
+
+@font-face {
+   font-family: 'SF Pro KR';
+   src: url(../font/SFProKRDisplay_regular.woff2) format('woff2');
+}
+
+
+
+body { 
+   font-family: 'SF Pro Text', 'Helvetica', 'Arial', 'sans-serif';
+   font-size: 17px;
+   line-height: 1.47;
+   font-weight: 400;
+   color: rgb(29,29,31);
+}
+
+h4 {
+   font-size: 56px;
+   font-weight: 700;
+   line-height: 1.18;
+   letter-spacing: -2.5px;
+}
+
+h5 {
+   font-size: 28px;
+   font-weight: 400;
+   line-height: 1.11;
+   letter-spacing: 0.004em;
+   font-family: 'SF Pro KR';
+}
+
+/* Color Style */
+
+.c_255 {
+   color: rgb(255,255,255);
+}
+
+      

@@ -1,0 +1,70 @@
+header { 
+   background-color: rgba(0, 0, 0, 0.8);
+   width: 100%; 
+   height: 44px;
+
+}
+
+.gnb_wrap {
+   margin: 0 auto;
+   max-width: 980px;
+   padding: 0 22px;
+}
+      
+.gnb_menu { 
+   width: 100%; 
+   display: flex; 
+   justify-content: space-between; 
+   align-items: center;
+}
+
+.gnb_menu li {
+   display: inline-block;
+   position: relative;
+   z-index: 1;
+   vertical-align: top;
+   height: 44px;
+
+}
+
+.gnb_menu li a { 
+   padding: 0 10px; 
+   height: 100%; 
+   line-height: 44px;
+   display: block;
+
+   font-size: 14px;
+   line-height: 3.14286;
+   font-weight: 400;
+   color: rgb(245, 245, 247);
+}
+
+.gnb_menu li:nth-child(7) a {
+   font-family: 'SF Pro KR';
+}
+
+.gnb_apple_logo {
+   background-image: url(../img/globalnav_apple_image__cxwwnrj0urau_large.svg);
+   background-size: 16px 44px;
+   background-repeat: no-repeat;
+   background-position: center center;
+   width: 16px;   
+}
+
+.gnb_search {
+   background-image: url(../img/globalnav_search_image__fca9mfoh8a2q_large.svg);
+   background-size: 18px 88px;
+   background-repeat: no-repeat;
+   width: 18px;
+   color: rgb(245, 245, 247);
+}
+
+.gnb_store {
+   background-image: url(../img/globalnav_bag_image__bmix8075eg4i_large.svg);
+   background-size: 17px 44px;
+   background-repeat: no-repeat;
+   background-position: center center;
+   width: 17px;
+   color: rgb(245, 245, 247);
+
+}

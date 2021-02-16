@@ -1,0 +1,133 @@
+/* Module CSS */
+
+.module {
+   width: 100%;
+   text-align: center;
+   background-color: white;
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+.module_text {
+   font-size: 14px;
+   padding: 12px 0;
+   color: rgb(29,29,31);
+   line-height: 1.58824;
+   letter-spacing: 0em;
+   font-family: 'SF Pro KR';
+}
+
+.module_text a {
+   color: rgb(0,102,204);
+}
+
+.module_text a:hover {
+   text-decoration: underline;
+}
+
+/* Main Visual CSS */
+
+.main_visual_wrap {
+   width: 100%;
+   background-color: #fbfbfd;
+}
+
+.main_visual_1 {
+   width: 100%;
+   height: 624px;
+   background-size: 3010px 624px;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-image: url(../img/iphone_12_us__fo0stbby242m_large.jpg);
+   position: relative;
+}
+
+.main_visual_text {
+   width: 100%;
+   text-align: center;
+   position: absolute;
+   top: 91px;
+   left: 0;
+}
+
+.main_visual_text h5 {
+   padding-top: 6px;
+}
+
+.main_visual_text p {
+   margin-top: 6.8px;
+   color: rgb(134,134,139);
+   line-height: 1.588;
+   letter-spacing: 0em;
+   font-family: 'SF Pro KR';
+}
+
+.main_visual_links {
+   margin-top: .65em;
+}
+
+.main_visual_links a {
+   color: rgb(0,102,204);
+   font-family: 'SF Pro KR';
+   font-size: 21px;
+   position: relative;
+}
+
+.main_visual_links a:hover {
+   text-decoration: underline;
+}
+
+.main_visual_links a:nth-child(2) {
+   margin-left: 35px;
+}
+
+.main_visual_links a:after {
+   content: '';
+   position: absolute;
+   right: -20px;
+   top: 0;
+   width: 9.5px;
+   height: 31.5px;
+   padding-left: 10px;
+   
+   background-image: url(../img/arrow_right-24px.svg);
+   background-size: 24px 24px;
+   background-repeat: no-repeat;
+}
+
+
+.main_visual_2 {
+   width: 100%;
+   height: 624px;
+   background-size: 3010px 624px;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-image: url(../img/iphone_12_pro_us__e5oyysg4k0ya_large.jpg);
+   position: relative;
+   margin-top: 10px;
+}
+
+.main_visual_2 .main_visual_text {
+   width: 100%;
+   text-align: center;
+   position: absolute;
+   top: 91px;
+   left: 0;
+}
+
+.main_visual_3 {
+   width: 100%;
+   height: 387px;
+   background-size: 1155px 387px;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-image: url(../img/hero__dvsxv8smkkgi_large.jpg);
+   position: relative;
+   margin-top: 10px;
+}
+
+.main_visual_text_3 {
+   padding-top: 40px;
+   text-align: center;
+}
