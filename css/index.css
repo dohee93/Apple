@@ -131,3 +131,58 @@
    padding-top: 40px;
    text-align: center;
 }
+
+.main_promos_wrap {
+   width: 100%;
+}
+
+.main_promos {
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.main_promos li {
+   margin: 10px;
+}
+
+.main_promos_1 {
+   width: 50%;
+   height: 624px;
+   background-color: #000;
+   position: relative;
+}
+
+.main_promos_1 a {
+   width: 100%;
+   height: 100%;
+   display: block;
+}
+
+.promos_img_1 {
+   width: 240px;
+   height: 381px;
+   background-size: 240px 381px;
+   background-repeat: no-repeat;
+   background-image : url(../img/watch_1.jpg);
+   position: absolute;
+   left: 30%;
+   bottom: 0;
+}
+/* 
+.promos_logo {
+   max-width: 100%;
+   margin: 40px auto 0;
+}
+
+.promos_subhead {
+   font-size: 21px;
+   line-height: 1.2381;
+   font-weight: 400;
+   letter-spacing: .016em;
+   font-family: 'SF Pro KR';
+
+   max-width: 430px;
+   margin: 11px auto 0;
+
+} */
