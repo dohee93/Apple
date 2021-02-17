@@ -1,0 +1,48 @@
+footer {
+   width: 100%;
+   height: auto;
+   background-color: rgb(245,245,247);
+}
+
+.footer {
+   max-width: 1024px;
+   padding: 0 22px;
+   margin: 0 auto;
+}
+
+.footer_note {
+   padding: 17px 0 20.6px 0;
+   border-bottom: 1px solid rgb(210,210,215);
+   color: rgb(134,134,139);
+   font-size: 12px;
+   line-height: 16px;
+}
+
+.footer_directory {
+   padding: 20px 0 0 0;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.directory_column h3 {
+   font-size: 12px;
+   line-height: 16px;
+   font-weight: 600;
+   margin: 0 20px 9.6px 0;
+}
+
+.directory_list {
+   padding: 0 20px 0 0;
+}
+
+.directory_item {
+   margin: 0 0 9.6px 0;
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 16px;
+}
+
+.directory_column h3:nth-of-type(2) {
+   padding-top: 24px;
+}

@@ -1,188 +1,285 @@
-/* Module CSS */
+/* Banner CSS */
 
-.module {
+.banner_wrap {
    width: 100%;
-   text-align: center;
-   background-color: white;
-   position: absolute;
-   top: 0;
-   left: 0;
+   height: 46px;
+   margin: 44px 0 0 0;
 }
 
-.module_text {
-   font-size: 14px;
+.banner_text {
+   text-align: center;
    padding: 12px 0;
-   color: rgb(29,29,31);
-   line-height: 1.58824;
-   letter-spacing: 0em;
-   font-family: 'SF Pro KR';
 }
 
-.module_text a {
+.banner_text a {
    color: rgb(0,102,204);
 }
 
-.module_text a:hover {
+.banner_text a:hover {
    text-decoration: underline;
 }
 
-/* Main Visual CSS */
+/* Hero CSS */
 
-.main_visual_wrap {
-   width: 100%;
-   background-color: #fbfbfd;
-}
+/* Hero 1 iPhone 12 */
 
-.main_visual_1 {
+.hero_1_wrap {
    width: 100%;
-   height: 624px;
-   background-size: 3010px 624px;
-   background-repeat: no-repeat;
-   background-position: center center;
-   background-image: url(../img/iphone_12_us__fo0stbby242m_large.jpg);
-   position: relative;
-}
-
-.main_visual_text {
-   width: 100%;
+   height: 692px;
+   background-color: rgb(251,251,253);
    text-align: center;
-   position: absolute;
-   top: 91px;
-   left: 0;
+   padding: 55px 0 0 0;
+   background-image: url(../img/hero_iphone12.jpg);
+   background-size: auto;
+   background-position: center bottom;
+   background-repeat: no-repeat;
 }
 
-.main_visual_text h5 {
-   padding-top: 6px;
+.hero_subline_black {
+   margin: 6px 0 0 0;
 }
 
-.main_visual_text p {
-   margin-top: 6.8px;
+.hero_price_info {
    color: rgb(134,134,139);
-   line-height: 1.588;
-   letter-spacing: 0em;
-   font-family: 'SF Pro KR';
+   margin: 13.6px 0 0 0;
+   font-size: 17px;
 }
 
-.main_visual_links {
-   margin-top: .65em;
+.hero_links_light {
+   margin: 13.65px 0 0 0;
 }
 
-.main_visual_links a {
-   color: rgb(0,102,204);
-   font-family: 'SF Pro KR';
+.hero_links_light a {
    font-size: 21px;
-   position: relative;
+   line-height: 32px;
+   color: rgb(0,102,204);
+   margin: 0 16px;
+   letter-spacing: 0.2px;
 }
 
-.main_visual_links a:hover {
-   text-decoration: underline;
-}
-
-.main_visual_links a:nth-child(2) {
-   margin-left: 35px;
-}
-
-.main_visual_links a:after {
-   content: '';
-   position: absolute;
-   right: -20px;
-   top: 0;
-   width: 9.5px;
-   height: 31.5px;
-   padding-left: 10px;
-   
-   background-image: url(../img/arrow_right-24px.svg);
-   background-size: 24px 24px;
-   background-repeat: no-repeat;
-}
-
-
-.main_visual_2 {
+.hero_2_wrap {
    width: 100%;
-   height: 624px;
-   background-size: 3010px 624px;
-   background-repeat: no-repeat;
-   background-position: center center;
-   background-image: url(../img/iphone_12_pro_us__e5oyysg4k0ya_large.jpg);
-   position: relative;
-   margin-top: 10px;
-}
-
-.main_visual_2 .main_visual_text {
-   width: 100%;
+   height: 692px;
+   background-color: rgb(0,0,0);
    text-align: center;
-   position: absolute;
-   top: 91px;
-   left: 0;
-}
-
-.main_visual_3 {
-   width: 100%;
-   height: 387px;
-   background-size: 1155px 387px;
+   padding: 55px 0 0 0;
+   margin: 12px 0 0 0;
+   background-image: url(../img/hero_iphone12_pro.jpg);
+   background-size: auto;
+   background-position: center bottom;
    background-repeat: no-repeat;
-   background-position: center center;
-   background-image: url(../img/hero__dvsxv8smkkgi_large.jpg);
-   position: relative;
-   margin-top: 10px;
 }
 
-.main_visual_text_3 {
-   padding-top: 40px;
-   text-align: center;
+.hero_headline_white {
+   color: rgb(245,245,247);
 }
 
-.main_promos_wrap {
+.hero_subline_white {
+   margin: 6px 0 0 0;
+   color: rgb(245,245,247);
+}
+
+.hero_links_dark {
+   margin: 13.65px 0 0 0;
+}
+
+.hero_links_dark a {
+   font-size: 21px;
+   line-height: 32px;
+   color: rgb(41,151,255);
+   margin: 0 16px;
+   letter-spacing: 0.2px;
+}
+
+.hero_3_wrap {
    width: 100%;
+   height: 692px;
+   background-color: rgb(251,251,253);
+   text-align: center;
+   padding: 55px 0 0 0;
+   margin: 12px 0 0 0;
+   background-image: url(../img/hero_ipad_air.jpg);
+   background-size: auto;
+   background-position: center bottom;
+   background-repeat: no-repeat;
 }
 
-.main_promos {
+/* Section Promotion */
+
+.promo_wrap {
+   width: 100%;
+   height: auto;
+}
+
+.promo {
    width: 100%;
    display: flex;
    flex-wrap: wrap;
+   padding: 12px 6px;
 }
 
-.main_promos li {
-   margin: 10px;
+.promo_eyebrow {
+   color: rgb(245,245,247);
+   font-size: 17px;
+   line-height: 23px;
+   font-weight: 600;
 }
 
-.main_promos_1 {
-   width: 50%;
-   height: 624px;
-   background-color: #000;
-   position: relative;
+.promo_headline_white {
+   color: rgb(245,245,247);
+   margin: 2px 0 0 0;
+   font-size: 40px;
+   line-height: 44px;
+   font-weight: 600;
 }
 
-.main_promos_1 a {
-   width: 100%;
-   height: 100%;
-   display: block;
+.promo_headline_black {
+   color: rgb(29,29,31);
+   font-size: 40px;
+   line-height: 44px;
+   font-weight: 600;
 }
 
-.promos_img_1 {
-   width: 240px;
-   height: 381px;
-   background-size: 240px 381px;
-   background-repeat: no-repeat;
-   background-image : url(../img/watch_1.jpg);
-   position: absolute;
-   left: 30%;
-   bottom: 0;
-}
-/* 
-.promos_logo {
-   max-width: 100%;
-   margin: 40px auto 0;
-}
-
-.promos_subhead {
+.promo_subline_white {
+   color: rgb(245,245,247);
    font-size: 21px;
-   line-height: 1.2381;
-   font-weight: 400;
-   letter-spacing: .016em;
-   font-family: 'SF Pro KR';
+   line-height: 26px;
+   margin: 11px 0 0 0;
+}
 
-   max-width: 430px;
-   margin: 11px auto 0;
+.promo_subline_black {
+   color: rgb(29,29,31);
+   font-size: 21px;
+   line-height: 26px;
+   margin: 4px 0 0 0;
+}
 
-} */
+.promo_links_dark {
+   margin: 11.9px 0 0 0;
+}
+
+.promo_links_dark a {
+   color: rgb(41,151,255);
+   font-size: 17px;
+   line-height: 23px;
+   margin: 0 14px;
+}
+
+.promo_links_light {
+   margin: 11.9px 0 0 0;
+}
+
+.promo_links_light a {
+   color: rgb(0,102,204);
+   font-size: 17px;
+   line-height: 23px;
+   margin: 0 14px;
+}
+
+/* Promotion 1 */
+
+.promo_1 {
+   width: calc(50% - 12px);
+   height: 580px;
+   margin: 6px;
+   padding: 40px 0 0 0;
+   background-color: rgb(0,0,0);
+   text-align: center;
+   background-image: url(../img/promo_watch_1.jpg);
+   background-repeat: no-repeat;
+   background-size: auto;
+   background-position: center bottom;
+}
+
+.promo_1 img {
+   height: 50px;
+   vertical-align: middle;
+}
+
+/* Promotion 2 */
+
+.promo_2 {
+   width: calc(50% - 12px);
+   height: 580px;
+   margin: 6px;
+   padding: 57px 0 0 0;
+   background-color: rgb(0,0,0);
+   text-align: center;
+   background-image: url(../img/promo_watch_2.jpg);
+   background-repeat: no-repeat;
+   background-size: auto;
+   background-position: center bottom;
+}
+
+.promo_2 img {
+   height: 57px;
+   vertical-align: middle;
+}
+
+/* Promotion 3 */
+
+.promo_3 {
+   width: calc(50% - 12px);
+   height: 580px;
+   margin: 6px;
+   padding: 29px 0 0 0;
+   background-color: rgb(0,0,0);
+   text-align: center;
+   background-image: url(../img/promo_macbook_1.jpg);
+   background-repeat: no-repeat;
+   background-size: auto;
+   background-position: center bottom;
+}
+
+.promo_3 .promo_subline_white {
+   margin: 4px 0 0 0;
+}
+
+/* Promotion 4 */
+
+.promo_4 {
+   width: calc(50% - 12px);
+   height: 580px;
+   margin: 6px;
+   padding: 51px 0 0 0;
+   background-color: rgb(0,0,0);
+   text-align: center;
+   background-image: url(../img/promo_macbook_2.jpg);
+   background-repeat: no-repeat;
+   background-size: auto;
+   background-position: center bottom;
+}
+
+.promo_4 .promo_subline_white {
+   margin: 4px 0 0 0;
+}
+
+/* Promotion 5 */
+
+.promo_5 {
+   width: calc(50% - 12px);
+   height: 580px;
+   margin: 6px;
+   padding: 54px 0 0 0;
+   background-color: rgb(245,245,247);
+   text-align: center;
+   background-image: url(../img/apple.jpg);
+   background-repeat: no-repeat;
+   background-size: auto;
+   background-position: center bottom;
+}
+
+/* Promotion 6 */
+
+.promo_6 {
+   width: calc(50% - 12px);
+   height: 580px;
+   margin: 6px;
+   padding: 54px 0 0 0;
+   background-color: rgb(241,241,243);
+   text-align: center;
+   background-image: url(../img/accessory.jpg);
+   background-repeat: no-repeat;
+   background-size: auto;
+   background-position: center bottom;
+}

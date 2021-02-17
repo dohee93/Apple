@@ -1,70 +1,126 @@
 header { 
-   background-color: rgba(0, 0, 0, 0.8);
-   width: 100%; 
+   width: 100%;
+}
+
+.gnb {
+   width: 100%;
+   background-color: rgba(0,0,0,0.8);
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 10000;
+}
+
+.gnb_menu {
+   max-width: 1000px;
    height: 44px;
-
-}
-
-.gnb_wrap {
    margin: 0 auto;
-   max-width: 980px;
-   padding: 0 22px;
-}
-      
-.gnb_menu { 
-   width: 100%; 
-   display: flex; 
-   justify-content: space-between; 
+   display: flex;
+   justify-content: space-between;
    align-items: center;
 }
 
 .gnb_menu li {
-   display: inline-block;
-   position: relative;
-   z-index: 1;
-   vertical-align: top;
-   height: 44px;
-
+   height: 100%;
 }
+
 
 .gnb_menu li a { 
-   padding: 0 10px; 
-   height: 100%; 
-   line-height: 44px;
+   padding: 0 10px;
+}
+
+.gnb_logo a {
    display: block;
-
-   font-size: 14px;
-   line-height: 3.14286;
-   font-weight: 400;
-   color: rgb(245, 245, 247);
-}
-
-.gnb_menu li:nth-child(7) a {
-   font-family: 'SF Pro KR';
-}
-
-.gnb_apple_logo {
-   background-image: url(../img/globalnav_apple_image__cxwwnrj0urau_large.svg);
-   background-size: 16px 44px;
+   width: 36px;
+   height: 44px;
+   background-image: url(../img/globalnav_apple.svg);
    background-repeat: no-repeat;
    background-position: center center;
-   width: 16px;   
 }
 
-.gnb_search {
-   background-image: url(../img/globalnav_search_image__fca9mfoh8a2q_large.svg);
+.gnb_mac a {
+   display: block;
+   width: 46px;
+   height: 44px;
+   background-image: url(../img/globalnav_links_mac.svg);
+   background-repeat: no-repeat;
+   background-size: 26px 44px;
+   background-position: center center;
+}
+
+.gnb_ipad a {
+   display: block;
+   width: 47px;
+   height: 44px;
+   background-image: url(../img/globalnav_links_ipad.svg);
+   background-repeat: no-repeat;
+   background-size: 27px 44px;
+   background-position: center center;
+   max-width: 45.9px;
+}
+
+.gnb_iphone a {
+   display: block;
+   width: 64px;
+   height: 44px;
+   background-image: url(../img/globalnav_links_iphone.svg);
+   background-repeat: no-repeat;
+   background-size: 44px 44px;
+   background-position: center center;
+   max-width: 74.8px;
+}
+
+.gnb_watch a {
+   display: block;
+   width: 60px;
+   height: 44px;
+   background-image: url(../img/globalnav_links_watch.svg);
+   background-repeat: no-repeat;
+   background-size: 40px 44px;
+   background-position: center center;
+   max-width:68px;
+}
+
+.gnb_music a {
+   display: block;
+   width: 57px;
+   height: 44px;
+   background-image: url(../img/globalnav_links_music.svg);
+   background-repeat: no-repeat;
+   background-size: 37px 44px;
+   background-position: center center;
+   max-width:62.9px;
+}
+
+.gnb_support a {
+   display: block;
+   width: 65px;
+   height: 44px;
+   background-image: url(../img/globalnav_links_support.svg);
+   background-repeat: no-repeat;
+   background-size: 45px 44px;
+   background-position: center center;
+   max-width:76.5px;
+}
+
+.gnb_search a {
+   display: block;
+   width: 38px;
+   height: 44px;
+   background-image: url(../img/globalnav_search.svg);
+   background-repeat: no-repeat;
+   background-position: 10px 0;
    background-size: 18px 88px;
-   background-repeat: no-repeat;
-   width: 18px;
-   color: rgb(245, 245, 247);
 }
 
-.gnb_store {
-   background-image: url(../img/globalnav_bag_image__bmix8075eg4i_large.svg);
-   background-size: 17px 44px;
+.gnb_store a {
+   display: block;
+   width: 37px;
+   height: 44px;
+   background-image: url(../img/globalnav_bag.svg);
    background-repeat: no-repeat;
    background-position: center center;
-   width: 17px;
-   color: rgb(245, 245, 247);
-
+   background-size: 17px 44px;
 }
+
+
