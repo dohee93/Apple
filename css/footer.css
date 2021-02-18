@@ -4,9 +4,9 @@ footer {
    background-color: rgb(245,245,247);
 }
 
-.footer {
-   max-width: 1024px;
-   padding: 0 22px;
+.footer_wrap {
+   max-width: 1000px;
+   padding: 0 10px;
    margin: 0 auto;
 }
 
@@ -18,18 +18,32 @@ footer {
    line-height: 16px;
 }
 
-.footer_directory {
-   padding: 20px 0 0 0;
-   width: 100%;
-   display: flex;
-   justify-content: space-between;
+.footer_note a {
+   color: rgb(81,81,84);
 }
 
-.directory_column h3 {
+.footer_note a:hover {
+   text-decoration: underline;
+}
+
+.footer_directory {
+   padding: 20px 0 34px 0;
+   width: 100%;
+   display: flex;
+   /* justify-content: space-between; */
+  
+}
+
+.footer_directory .directory_column {
+   width: 20%;
+}
+
+.directory_list h3 {
    font-size: 12px;
    line-height: 16px;
    font-weight: 600;
    margin: 0 20px 9.6px 0;
+   letter-spacing: normal;
 }
 
 .directory_list {
@@ -43,6 +57,90 @@ footer {
    line-height: 16px;
 }
 
-.directory_column h3:nth-of-type(2) {
+.directory_item:last-child {
+   margin-bottom: 0;
+}
+
+.directory_item a {
+   color: rgb(81,81,84);
+}
+
+.directory_column ul:nth-child(2) h3 {
    padding-top: 24px;
+}
+
+.directory_item a:hover,
+.footer_legal_link a:hover,
+.footer_local:hover,
+.footer_shop a:hover {
+   text-decoration: underline;
+}
+
+.global_footer {
+   color: rgb(134,134,139);
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 16px;
+}
+
+.footer_shop {
+   width: 100%;
+   padding-bottom: 8px;
+   margin-bottom: 1px;
+   border-bottom: 1px solid rgb(210,210,215);
+}
+
+.footer_shop a {
+   color: rgb(0,102,204);
+}
+
+.footer_legal {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   margin: 7px 0;
+   position: relative;
+}
+
+.footer_copyright {
+   color: rgb(134,134,139);
+   padding-right: 30px;
+}
+
+.footer_legal_link {
+   padding-right: 30px;
+}
+
+.footer_legal_link a {
+   color: rgb(81,81,84);
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 16px;
+   border-right: 1px solid rgb(210,210,215);
+   padding-right: 10px;
+   margin: 5px 7px 0 0;
+}
+
+
+
+.footer_legal_link a:last-child {
+   border-right: none;
+}
+
+.footer_local {
+   color: rgb(81,81,84);
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 16px;
+   position: absolute;
+   right: 0;
+}
+
+
+
+.footer_address {
+   font-size: 11px;
+   line-height: 14.6px;
+   color: rgb(153,153,153);
+   padding-bottom: 20px;
 }
