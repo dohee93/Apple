@@ -57,6 +57,10 @@
    letter-spacing: 0.2px;
 }
 
+.large-hide {
+   display: none;
+}
+
 .hero_2_wrap {
    width: 100%;
    height: 692px;
@@ -282,4 +286,337 @@
    background-repeat: no-repeat;
    background-size: auto;
    background-position: center bottom;
+}
+
+.promo_headline_black_1068 {
+   display: none;
+}
+
+@media screen and (max-width: 1068px) {
+   /* Hero Section */
+   .hero_1_wrap {
+      height: 650px;     
+      padding: 55px 0 0 0;
+      background-image: url(../img/hero_iphone12_1068.jpg);
+      background-size: 1068px 698px;
+   }
+
+   .hero_headline_black {
+      font-size: 48px;
+   }
+   
+   .hero_subline_black {
+      margin: 5px 0 0 0;
+      font-size: 24px;
+   }
+   
+   .hero_links_light {
+      margin: 14.06px 0 0 0;
+   }
+   
+   .hero_links_light a {
+      font-size: 19px;
+      line-height: 25px;
+   }
+
+   .medium-hide {
+      display: none;
+   }
+   
+   .hero_2_wrap {
+      height: 650px;
+      padding: 61px 0 0 0;
+      background-image: url(../img/hero_iphone12_pro_1068.jpg);
+      background-size: 1068px 698px;
+   }
+   
+   .hero_headline_white {
+      font-size: 48px;
+   }
+   
+   .hero_subline_white {
+      margin: 5px 0 0 0;
+      font-size: 24px;
+   }
+   
+   .hero_links_dark {
+      margin: 14.06px 0 0 0;
+   }
+   
+   .hero_links_dark a {
+      font-size: 19px;
+      line-height: 25px;
+   }
+  
+   .hero_3_wrap {
+      height: 650px;
+      padding: 61px 0 0 0;
+      background-image: url(../img/hero_ipad_air_1068.jpg);
+      background-size: 796px 450px;
+   }
+   
+   /* Section Promotion */
+
+   .promo_headline_white {
+      font-size: 32px;
+      line-height: 36px;
+   }
+
+   .promo_headline_black {
+      font-size: 32px;
+      line-height: 36px;
+   }
+
+   .promo_6 .promo_headline_black {
+      display: none;
+   }
+
+   .promo_6 .promo_headline_black_1068 {
+      display: block;
+      color: rgb(29,29,31);
+      font-size: 32px;
+      line-height: 36px;
+      font-weight: 600;
+   }
+
+   .promo_subline_white {
+      font-size: 19px;
+      line-height: 25px;
+   }
+
+   .promo_subline_black {
+      font-size: 19px;
+      line-height: 25px;
+   }
+
+   .promo_links_dark {
+      margin: 13.6px 0 0 0;
+   }
+
+   .promo_links_light {
+      margin: 13.6px 0 0 0;
+   }
+
+   /* Promotion 1 */
+
+   .promo_1 {
+      height: 490px;
+      padding: 26px 0 0 0;
+      background-image: url(../img/promo_watch_1_1068.jpg);
+      background-size: 188px 314px;
+   }
+
+   .promo_1 img {
+      height: 46px;
+   }
+
+   /* Promotion 2 */
+
+   .promo_2 {
+      height: 490px;
+      padding: 44px 0 0 0;
+      background-image: url(../img/promo_watch_2_1068.jpg);
+      background-size: 516px 490px;
+   }
+
+   .promo_2 img {
+      height: 47px;
+   }
+
+   /* Promotion 3 */
+
+   .promo_3 {
+      height: 490px;
+      padding: 19px 0 0 0;
+      background-image: url(../img/promo_macbook_1_1068.jpg);
+      background-size: 516px 490px;
+   }
+
+   /* Promotion 4 */
+
+   .promo_4 {
+      height: 490px;
+      padding: 42px 0 0 0;
+      background-image: url(../img/promo_macbook_2_1068.jpg);
+      background-size: 516px 490px;
+   }
+
+   /* Promotion 5 */
+
+   .promo_5 {
+      height: 490px;
+      padding: 42px 0 0 0;
+      background-image: url(../img/apple_1068.jpg);
+      background-size: 516px 490px;
+   }
+
+   /* Promotion 6 */
+
+   .promo_6 {
+      height: 490px;
+      padding: 42px 0 0 0;
+      background-image: url(../img/accessory_1068.jpg);
+      background-size: 558px 490px;
+   }
+}
+
+@media screen and (max-width: 734px) {
+   /* Hero Section */
+   .hero_1_wrap {
+      height: 500px;     
+      padding: 37px 0 0 0;
+      background-image: url(../img/hero_iphone_12_734.jpg);
+      background-size: 734px 548px;
+   }
+
+   .hero_headline_black {
+      font-size: 32px;
+      line-height: 39px;
+   }
+   
+   .hero_subline_black {
+      margin: 2px 0 0 0;
+      font-size: 19px;
+   }
+   
+   .hero_links_light {
+      margin: 13.3px 0 0 0;
+   }
+   
+   .hero_links_light a {
+      font-size: 19px;
+      line-height: 25px;
+      margin: 0 13.5px;
+   }
+
+   .hero_price_info {
+      font-size: 14px;
+   }
+
+   .small-show {
+      display: block;
+   }
+   
+   .hero_2_wrap {
+      height: 500px;
+      padding: 37px 0 0 0;
+      background-image: url(../img/hero_iphone12_pro_734.jpg);
+      background-size: 734px 548px;
+   }
+   
+   .hero_headline_white {
+      font-size: 32px;
+      line-height: 39px;
+   }
+   
+   .hero_subline_white {
+      margin: 2px 0 0 0;
+      font-size: 19px;
+   }
+   
+   .hero_links_dark {
+      margin: 13.3px 0 0 0;
+   }
+   
+   .hero_links_dark a {
+      font-size: 19px;
+      line-height: 25px;
+      margin: 0 13.5px;
+   }
+  
+   .hero_3_wrap {
+      height: 500px;
+      padding: 380px 0 0 0;
+      background-image: url(../img/hero_ipad_air_734.jpg);
+      background-size: 734px 548px;
+   }
+
+   .hero_3_wrap .hero_headline_black {
+      display: none;
+   }
+   
+   /* Section Promotion */
+
+   .promo {
+      width: 100%;
+      display: block;
+      padding: 0;
+   }
+   .promo_6 .promo_headline_black {
+      display: none;
+   }
+
+   .promo_links_dark {
+      margin: 13.6px 0 0 0;
+   }
+
+   .promo_links_light {
+      margin: 13.6px 0 0 0;
+   }
+
+   /* Promotion 1 */
+
+   .promo_1 {
+      width: 100%;
+      height: 500px;
+      padding: 22px 0 0 0;
+      margin: 12px 0 0 0;
+      background-image: url(../img/promo_watch_1_734.jpg);
+      background-size: 207px 333px;
+   }
+
+   /* Promotion 2 */
+
+   .promo_2 {
+      width: 100%;
+      height: 500px;
+      padding: 439x 0 0 0;
+      margin: 12px 0 0 0;
+      background-image: url(../img/promo_watch_2_734.jpg);
+      background-size: 734px 548px;
+   }
+
+   /* Promotion 3 */
+
+   .promo_3 {
+      width: 100%;
+      height: 500px;
+      padding: 39px 0 0 0;
+      margin: 12px 0 0 0;
+      background-image: url(../img/promo_macbook_1_734.jpg);
+      background-size: 734px 548px;
+   }
+
+   /* Promotion 4 */
+
+   .promo_4 {
+      width: 100%;
+      height: 500px;
+      padding: 37px 0 0 0;
+      margin: 12px 0 0 0;
+      background-image: url(../img/promo_macbook_2_734.jpg);
+      background-size: 734px 548px;
+   }
+
+   /* Promotion 5 */
+
+   .promo_5 {
+      width: 100%;
+      height: 500px;
+      padding: 37px 0 0 0;
+      margin: 12px 0 0 0;
+      background-image: url(../img/apple_734.jpg);
+      background-size: 736px 548px;
+   }
+
+   /* Promotion 6 */
+
+   .promo_6 {
+      width: 100%;
+      height: 500px;
+      padding: 37px 0 0 0;
+      margin: 12px 0 12px 0;
+      background-image: url(../img/accessory_734.jpg);
+      background-size: 796px 548px;
+   }
 }

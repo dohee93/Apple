@@ -2,6 +2,10 @@ header {
    width: 100%;
 }
 
+.gnb_m {
+   display: none;
+}
+
 .gnb {
    width: 100%;
    background-color: rgba(0,0,0,0.8);
@@ -12,6 +16,7 @@ header {
 }
 
 .gnb_menu {
+   max-width: 100%;
    max-width: 1000px;
    height: 44px;
    margin: 0 auto;
@@ -124,3 +129,61 @@ header {
 }
 
 
+@media screen and (max-width: 1068px) {
+   .gnb {
+      padding: 0 22px;
+   }
+
+}
+
+@media screen and (max-width: 767px) {
+   .gnb {
+      display: none;
+   }
+
+   .gnb_m {
+      display: block;
+      width: 100%;
+      background-color: rgba(0,0,0,0.8);
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 10000;
+   }
+   .gnb_m_menu {
+      max-width: 100%;
+      max-width: 1000px;
+      height: 48px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+
+   .gnb_m_menu .gnb_hidden_menu {
+      width: 48px;
+      height: 48px;
+   }
+
+   .gnb_m_menu .gnb_logo a {
+      display: block;
+      width: 48px;
+      height: 48px;
+      background-image: url(../img/globalnav_apple.svg);
+      background-repeat: no-repeat;
+      background-size: 48px 48px;
+      background-position: center center;
+   }
+   
+   .gnb_m_menu .gnb_store a {
+      display: block;
+      width: 48px;
+      height: 48px;
+      background-image: url(../img/globalnav_bag.svg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 17px 48px;
+   }
+
+
+}

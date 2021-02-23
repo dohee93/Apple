@@ -5,6 +5,7 @@ footer {
 }
 
 .footer_wrap {
+   width: 100%;
    max-width: 1000px;
    padding: 0 10px;
    margin: 0 auto;
@@ -136,11 +137,44 @@ footer {
    right: 0;
 }
 
-
-
 .footer_address {
    font-size: 11px;
    line-height: 14.6px;
    color: rgb(153,153,153);
    padding-bottom: 20px;
+}
+
+@media screen and (max-width:767px) {
+   .footer_directory {
+      display: block;
+      padding: 20px 0 0 0;
+   }
+
+   .footer_directory .directory_column {
+      width: 100%;
+   }
+
+   .directory_list li {
+      display: none;
+   }
+
+   .directory_column ul:nth-child(2) h3 {
+      padding-top: 0px;
+   }
+   
+   .directory_list h3 {
+      margin: 10px 0;
+      display: flex;
+      justify-content: space-between;
+   }
+
+   .directory_list {
+      border-bottom: 1px solid rgb(210,210,215);
+   }
+
+   .global_footer {
+      padding: 17px 0 19px 0;
+   }
+
+   
 }
