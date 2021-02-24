@@ -34,11 +34,28 @@
          </ul>
       </nav>
       <!-- Mobile GNB -->
-      <nav class="gnb_m">
+      <nav class="gnb_m" id="gnb_m_wrap">
          <ul class="gnb_m_menu">
-            <li class="gnb_hidden_menu"><a href="#"></a></li>
+            <li class="gnb_hidden_menu">
+               <a href="#" onclick="menuOpen()" id="gnb_menu_open"></a>
+               <a href="#" onclick="menuClose()" id="gnb_menu_close"></a>
+            </li>
             <li class="gnb_logo"><a href="#"></a></li>
-            <li class="gnb_store"><a href="#"></a></li>
+            <li class="gnb_store" id="gnb_menu_store"><a href="#"></a></li>
+         </ul>
+         <div class="gnb_search_wrap">
+            <div class="gnb_search">
+               <div class="gnb_search_m"></div>
+               <p>apple.com 검색</p>
+            </div>
+         </div>
+         <ul class="gnb_menu_list_m">
+            <li class="gnb_menu_item"><a href="#">Mac</a></li>
+            <li class="gnb_menu_item"><a href="#">iPad</a></li>
+            <li class="gnb_menu_item"><a href="#">iPhone</a></li>
+            <li class="gnb_menu_item"><a href="#">Watch</a></li>
+            <li class="gnb_menu_item"><a href="#">Music</a></li>
+            <li class="gnb_menu_item"><a href="#">고객지원</a></li>
          </ul>
       </nav>
    </header>
@@ -259,6 +276,30 @@
          </div>
       </div>
    </footer>
+   <script>
+      function menuOpen(){
+         document.getElementById("gnb_m_wrap")
+         .style = "height:100%;";
+         document.getElementById("gnb_menu_open")
+         .style = "display:none;"
+         document.getElementById("gnb_menu_close")
+         .style = "display:block;"
+         document.getElementById("gnb_menu_store")
+         .style = "visibility:hidden;"
+         
+
+      }
+      function menuClose(){
+         document.getElementById("gnb_m_wrap")
+         .style = "height: 48px; overflow:hidden";
+         document.getElementById("gnb_menu_open")
+         .style = "display:block;"
+         document.getElementById("gnb_menu_close")
+         .style = "display:none;"
+         document.getElementById("gnb_menu_store")
+         .style = "visibility:visible;"
+      }
+
+   </script>
 </body>
 </html>
-
