@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>CSS Animation</title>
+   <style>
+      /* Animation 실행 */
+      h1 { 
+         animation-name: changecolor; 
+         animation-duration: 2s;
+      }
+      h2 {
+         animation-name: changecolor; 
+         animation-duration: 1s;
+         animation-delay: 2s
+      }
+      p {
+         position: fixed;
+         top: 100px;
+         left: 0;
+         background-color: yellow;
+         animation-name: move;
+         animation-duration: 5s;
+         animation-timing-function: ease; 
+         animation-fill-mode : forwards;
+         animation-iteration-count: infinite;
+      }
+
+      img {
+         animation-name: changecolor;
+         animation-duration: 2s;
+         animation-fill-mode : backwards;
+      }
+      /* Animation 정의 */
+      @keyframes changecolor { 
+         0% { color: black; }
+         50% { color: yellow; }
+         to { color: red; }
+      }
+      @keyframes move {
+         from { left: 0;}
+         to { left: calc(100% - 110px)}
+      }
+   </style>
+</head>
+<body>
+   <h1>Hello</h1>
+   <h2>Welcome to Vomacademy</h2>
+   <p>Front-end 11th</p>
+   <img src="img/promo_macbook_1_734.jpg" alt="">   
+</body>
+</html>
