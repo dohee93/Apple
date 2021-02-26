@@ -170,8 +170,8 @@ header {
       width: 48px;
       height: 48px;
       top: 0;
-      left: 50%;
-      margin: 0 auto;
+      left: 48%;
+      /* margin: 0 10px; */
       text-align: center;
       z-index: 1;
    }
